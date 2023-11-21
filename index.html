@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./java.js"></script>
+    <title>Weather_App_2</title>
+</head>
+<body>
+    <div class="background">
+        <video id="video" src="./vecteezy_clouds-cartoon-moving-animated-background-4k_10887770_232.mp4" autoplay loop muted></video>
+    </div>
+    <div class="interaction">
+        <div class="getData">
+            <input type="text" class="InputData" id="Ip" placeholder="write city name...">
+            <button class="Search" id="btn">Submit</button>
+        </div>
+        <div class="imageStatus">
+            <img id="IconWeather" src="./pngwing.com (1).png" alt="">
+        </div>
+        <div class="status">
+            <h1 id="temp">Tempetature</h1>
+            <p id="cityName">city name</p>
+        </div>
+        <div class="report">
+            <div class="Humidity">
+                <p>Humidity</p>
+                <img src="./humidity.png" alt="" class="humidity">
+                <h5 id="humidityPrecentage">0%</h5>   
+            </div>
+            <div class="Wind">
+                <p>Wind Speed</p>
+                <img src="./wind.png" alt="" class="wind">
+                <h5 id="windSpeedLevel">0 km/h</h5>
+            </div>
+        </div>
+        <h4 class="weatherType" id="wT">Weather Type</h4>
+    </div>
+</body>
+</html>
