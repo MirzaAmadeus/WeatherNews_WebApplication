@@ -1,5 +1,5 @@
 const key = "35c50dab98a94ac7949134705231109";
-var api_url = "http://api.weatherapi.com/v1/current.json?";
+var api_url = "https://api.weatherapi.com/v1/current.json?";
 var Thunder = new Audio('ThunderStormSound.mp3');
 var Rain = new Audio('RainSound.mp3');
 
